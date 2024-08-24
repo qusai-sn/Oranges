@@ -1,0 +1,43 @@
+CREATE TABLE Users (
+    UserId INT PRIMARY KEY IDENTITY,
+    Username NVARCHAR(50) UNIQUE NOT NULL,
+    Email NVARCHAR(100) UNIQUE NOT NULL,
+    PasswordHash NVARCHAR(255) NOT NULL
+);
+
+CREATE TABLE Restaurants (
+    RestaurantId INT PRIMARY KEY IDENTITY,
+    RestaurantName NVARCHAR(100) NOT NULL,
+    Description NVARCHAR(255)
+);
+
+CREATE TABLE Meals (
+    MealId INT PRIMARY KEY IDENTITY,
+    MealName NVARCHAR(100) NOT NULL,
+    Price DECIMAL(10, 2) NOT NULL,
+    RestaurantId INT FOREIGN KEY REFERENCES Restaurants(RestaurantId),
+    Description NVARCHAR(255)
+);
+
+CREATE TABLE OrderLists (
+    OrderListId INT PRIMARY KEY IDENTITY,
+    OrderListName NVARCHAR(100) NOT NULL,
+    Description NVARCHAR(255),
+    CreatedByUserId INT FOREIGN KEY REFERENCES Users(UserId),
+    RestaurantId INT FOREIGN KEY REFERENCES Restaurants(RestaurantId),
+    IsLocked BIT DEFAULT 0,
+    DeliveryPrice DECIMAL(10, 2) DEFAULT 0.00
+);
+
+CREATE TABLE Orders (
+    OrderId INT PRIMARY KEY IDENTITY,
+    OrderListId INT FOREIGN KEY REFERENCES OrderLists(OrderListId),
+    MealId INT FOREIGN KEY REFERENCES Meals(MealId),
+    Quantity INT NOT NULL DEFAULT 1,
+    TotalPrice DECIMAL(10, 2) NOT NULL,
+    OrderDescription NVARCHAR(255),
+    UserId INT FOREIGN KEY REFERENCES Users(UserId),
+    IsPaid BIT DEFAULT 0,
+    PaidAmount DECIMAL(10, 2) DEFAULT 0.00,
+    RemainingAmount AS (TotalPrice - PaidAmount) PERSISTED
+);
