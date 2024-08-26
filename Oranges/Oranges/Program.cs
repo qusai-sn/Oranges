@@ -12,7 +12,7 @@ builder.Services.AddSwaggerGen();
 
 
 // Add services to the container.
-builder.Services.AddDbContext<Orders>(options =>
+builder.Services.AddDbContext<>(options =>
     options.UseSqlServer(builder.Configuration.GetConnectionString("YourConnectionString")));
 
 
