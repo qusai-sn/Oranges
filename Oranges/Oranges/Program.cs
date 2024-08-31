@@ -1,5 +1,5 @@
 using Microsoft.EntityFrameworkCore;
-using Oranges.Models;
+
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -11,8 +11,8 @@ builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
 
-// Add services to the container.
-builder.Services.AddDbContext<>(options =>
+
+builder.Services.AddDbContext<ApplicationDbContext>(options =>
     options.UseSqlServer(builder.Configuration.GetConnectionString("YourConnectionString")));
 
 
@@ -28,6 +28,13 @@ if (app.Environment.IsDevelopment())
     app.UseSwagger();
     app.UseSwaggerUI();
 }
+
+// Configure the HTTP request pipeline.
+if (app.Environment.IsDevelopment())
+{
+    app.UseDeveloperExceptionPage();
+}
+
 
 app.UseHttpsRedirection();
 

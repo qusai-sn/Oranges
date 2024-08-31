@@ -3,6 +3,22 @@
   "WorkspaceRootPath": "C:\\Users\\Orange Academy\\Desktop\\Oranges\\Oranges\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{B666E934-81E4-4265-BF5C-AD507B9A3DB8}|Oranges\\Oranges.csproj|c:\\users\\orange academy\\desktop\\oranges\\oranges\\oranges\\controllers\\maincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B666E934-81E4-4265-BF5C-AD507B9A3DB8}|Oranges\\Oranges.csproj|solutionrelative:oranges\\controllers\\maincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B666E934-81E4-4265-BF5C-AD507B9A3DB8}|Oranges\\Oranges.csproj|c:\\users\\orange academy\\desktop\\oranges\\oranges\\oranges\\migrations\\20240826131345_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B666E934-81E4-4265-BF5C-AD507B9A3DB8}|Oranges\\Oranges.csproj|solutionrelative:oranges\\migrations\\20240826131345_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B666E934-81E4-4265-BF5C-AD507B9A3DB8}|Oranges\\Oranges.csproj|c:\\users\\orange academy\\desktop\\oranges\\oranges\\oranges\\models\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B666E934-81E4-4265-BF5C-AD507B9A3DB8}|Oranges\\Oranges.csproj|solutionrelative:oranges\\models\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B666E934-81E4-4265-BF5C-AD507B9A3DB8}|Oranges\\Oranges.csproj|c:\\users\\orange academy\\desktop\\oranges\\oranges\\oranges\\models\\tables.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B666E934-81E4-4265-BF5C-AD507B9A3DB8}|Oranges\\Oranges.csproj|solutionrelative:oranges\\models\\tables.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{B666E934-81E4-4265-BF5C-AD507B9A3DB8}|Oranges\\Oranges.csproj|c:\\users\\orange academy\\desktop\\oranges\\oranges\\oranges\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B666E934-81E4-4265-BF5C-AD507B9A3DB8}|Oranges\\Oranges.csproj|solutionrelative:oranges\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -23,27 +39,80 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "mainController.cs",
+              "DocumentMoniker": "C:\\Users\\Orange Academy\\Desktop\\Oranges\\Oranges\\Oranges\\Controllers\\mainController.cs",
+              "RelativeDocumentMoniker": "Oranges\\Controllers\\mainController.cs",
+              "ToolTip": "C:\\Users\\Orange Academy\\Desktop\\Oranges\\Oranges\\Oranges\\Controllers\\mainController.cs",
+              "RelativeToolTip": "Oranges\\Controllers\\mainController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-26T13:24:44.605Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "20240826131345_InitialCreate.cs",
+              "DocumentMoniker": "C:\\Users\\Orange Academy\\Desktop\\Oranges\\Oranges\\Oranges\\Migrations\\20240826131345_InitialCreate.cs",
+              "RelativeDocumentMoniker": "Oranges\\Migrations\\20240826131345_InitialCreate.cs",
+              "ToolTip": "C:\\Users\\Orange Academy\\Desktop\\Oranges\\Oranges\\Oranges\\Migrations\\20240826131345_InitialCreate.cs",
+              "RelativeToolTip": "Oranges\\Migrations\\20240826131345_InitialCreate.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-26T13:13:45.666Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\Orange Academy\\Desktop\\Oranges\\Oranges\\Oranges\\Models\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "Oranges\\Models\\ApplicationDbContext.cs",
+              "ToolTip": "C:\\Users\\Orange Academy\\Desktop\\Oranges\\Oranges\\Oranges\\Models\\ApplicationDbContext.cs",
+              "RelativeToolTip": "Oranges\\Models\\ApplicationDbContext.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-26T13:11:22.8Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "tables.cs",
+              "DocumentMoniker": "C:\\Users\\Orange Academy\\Desktop\\Oranges\\Oranges\\Oranges\\Models\\tables.cs",
+              "RelativeDocumentMoniker": "Oranges\\Models\\tables.cs",
+              "ToolTip": "C:\\Users\\Orange Academy\\Desktop\\Oranges\\Oranges\\Oranges\\Models\\tables.cs",
+              "RelativeToolTip": "Oranges\\Models\\tables.cs",
+              "ViewState": "AQIAAAEAAAAAAAAAAAAAwB8AAAAUAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-26T13:09:01.173Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\Orange Academy\\Desktop\\Oranges\\Oranges\\Oranges\\Program.cs",
               "RelativeDocumentMoniker": "Oranges\\Program.cs",
               "ToolTip": "C:\\Users\\Orange Academy\\Desktop\\Oranges\\Oranges\\Oranges\\Program.cs",
               "RelativeToolTip": "Oranges\\Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAAAAAA",
+              "ViewState": "AQIAAA8AAAAAAAAAAAAAABQAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-08-23T23:01:40.909Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 5,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\Orange Academy\\Desktop\\Oranges\\Oranges\\Oranges\\appsettings.json",
               "RelativeDocumentMoniker": "Oranges\\appsettings.json",
               "ToolTip": "C:\\Users\\Orange Academy\\Desktop\\Oranges\\Oranges\\Oranges\\appsettings.json",
               "RelativeToolTip": "Oranges\\appsettings.json",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAABHAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAtAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-08-23T22:55:50.831Z"
+              "WhenOpened": "2024-08-23T22:55:50.831Z",
+              "EditorCaption": ""
             }
           ]
         }
