@@ -1,4 +1,5 @@
 using Microsoft.EntityFrameworkCore;
+using static Microsoft.EntityFrameworkCore.Migrations.Migration;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -11,8 +12,8 @@ builder.Services.AddSwaggerGen();
 
 
 
-builder.Services.AddDbContext<>(options =>
-    options.UseSqlServer(builder.Configuration.GetConnectionString("YourConnectionString")));
+builder.Services.AddDbContext<ApplicationDbContext>(options =>
+    options.UseSqlite(builder.Configuration.GetConnectionString("YourConnectionString")));
 
 
 
