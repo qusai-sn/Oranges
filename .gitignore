@@ -92,3 +92,9 @@
 
 # Resharper
 **/_ReSharper.Caches/
+
+# Ignore all Bin and Obj folders
+[Bb]in/
+[Bb]in/**/
+[Oo]bj/
+[Oo]bj/**/
