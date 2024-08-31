@@ -1,5 +1,4 @@
 using Microsoft.EntityFrameworkCore;
-using Oranges.Models;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -12,8 +11,8 @@ builder.Services.AddSwaggerGen();
 
 
 // Add services to the container.
-builder.Services.AddDbContext<>(options =>
-    options.UseSqlServer(builder.Configuration.GetConnectionString("YourConnectionString")));
+//builder.Services.AddDbContext<>(options =>
+//    options.UseSqlServer(builder.Configuration.GetConnectionString("YourConnectionString")));
 
 
 
