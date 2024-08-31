@@ -1,0 +1,94 @@
+/.vs
+# User-specific files
+**/*.rsuser
+**/*.suo
+**/*.user
+**/*.userosscache
+**/*.sln.docstates
+
+# User-specific folders
+**/.vscode/
+**/.vs/
+**/_ReSharper.Caches/
+**/ipch/
+**/obj/
+**/TestResults/
+**/Generated\ Files/
+**/Backup*/
+
+# Logs
+**/*.log
+
+# Build results
+**/[Dd]ebug/
+**/[Dd]ebugPublic/
+**/[Rr]elease/
+**/[Rr]eleases/
+**/x64/
+**/x86/
+**/[Aa][Rr][Mm]/
+**/[Aa][Rr][Mm]64/
+**/bld/
+**/[Bb]in/
+**/[Oo]bj/
+**/[Ll]og/
+**/[Ll]ogs/
+
+# Uncomment if you have tasks that create the following files
+# **/*.build.cs
+# **/*_AssemblyInfo.cs
+
+# Visual Studio
+**/.vscode/
+**/.vs/
+**/*.vssscc
+**/*.vspcc
+**/*.pdb
+**/*.cache/
+**/*.ilk
+**/*.aps
+**/*.sln.docstates
+**/*.log
+
+# Visual Studio 2022
+**/.vscode/
+**/.vs/
+**/*.vscode/
+**/*.sln/
+**/*.csproj.user
+**/*.csproj.userosscache
+**/*.csproj.layout
+**/*.csproj.ProjectExtensions.xml
+
+# Windows image file caches
+**/Thumbs.db
+**/ehthumbs.db
+
+# Folder config file
+**/Desktop.ini
+
+# Recycle Bin used on file shares
+**/$RECYCLE.BIN/
+
+# IIS
+**/IISExpress/
+**/~*
+
+# ASP.NET Scaffolding
+**/ScaffoldingReadMe.txt
+
+# Entity Framework
+**/*.edmx
+**/*.edmx.diagram
+**/*.edmx.sql
+**/*.jfm
+
+# Web config files
+**/appsettings.Development.json
+**/appsettings.json
+
+# Publish folder
+**/publish/
+
+# Resharper
+**/_ReSharper.Caches/
