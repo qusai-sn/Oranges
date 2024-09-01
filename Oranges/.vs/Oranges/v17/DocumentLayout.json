@@ -3,40 +3,60 @@
   "WorkspaceRootPath": "C:\\Users\\Orange Academy\\Desktop\\Oranges\\Oranges\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{B666E934-81E4-4265-BF5C-AD507B9A3DB8}|Oranges\\Oranges.csproj|c:\\users\\orange academy\\desktop\\oranges\\oranges\\oranges\\models\\tables.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B666E934-81E4-4265-BF5C-AD507B9A3DB8}|Oranges\\Oranges.csproj|solutionrelative:oranges\\models\\tables.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B666E934-81E4-4265-BF5C-AD507B9A3DB8}|Oranges\\Oranges.csproj|c:\\users\\orange academy\\desktop\\oranges\\oranges\\oranges\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{B666E934-81E4-4265-BF5C-AD507B9A3DB8}|Oranges\\Oranges.csproj|solutionrelative:oranges\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B666E934-81E4-4265-BF5C-AD507B9A3DB8}|Oranges\\Oranges.csproj|c:\\users\\orange academy\\desktop\\oranges\\oranges\\oranges\\controllers\\mealscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B666E934-81E4-4265-BF5C-AD507B9A3DB8}|Oranges\\Oranges.csproj|solutionrelative:oranges\\controllers\\mealscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B666E934-81E4-4265-BF5C-AD507B9A3DB8}|Oranges\\Oranges.csproj|c:\\users\\orange academy\\desktop\\oranges\\oranges\\oranges\\migrations\\20240901130820_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B666E934-81E4-4265-BF5C-AD507B9A3DB8}|Oranges\\Oranges.csproj|solutionrelative:oranges\\migrations\\20240901130820_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B666E934-81E4-4265-BF5C-AD507B9A3DB8}|Oranges\\Oranges.csproj|c:\\users\\orange academy\\desktop\\oranges\\oranges\\oranges\\migrations\\20240901133112_initialcreate3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B666E934-81E4-4265-BF5C-AD507B9A3DB8}|Oranges\\Oranges.csproj|solutionrelative:oranges\\migrations\\20240901133112_initialcreate3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B666E934-81E4-4265-BF5C-AD507B9A3DB8}|Oranges\\Oranges.csproj|c:\\users\\orange academy\\desktop\\oranges\\oranges\\oranges\\controllers\\votingresultcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B666E934-81E4-4265-BF5C-AD507B9A3DB8}|Oranges\\Oranges.csproj|solutionrelative:oranges\\controllers\\votingresultcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{B666E934-81E4-4265-BF5C-AD507B9A3DB8}|Oranges\\Oranges.csproj|c:\\users\\orange academy\\desktop\\oranges\\oranges\\oranges\\models\\dto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B666E934-81E4-4265-BF5C-AD507B9A3DB8}|Oranges\\Oranges.csproj|solutionrelative:oranges\\models\\dto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B666E934-81E4-4265-BF5C-AD507B9A3DB8}|Oranges\\Oranges.csproj|c:\\users\\orange academy\\desktop\\oranges\\oranges\\oranges\\models\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B666E934-81E4-4265-BF5C-AD507B9A3DB8}|Oranges\\Oranges.csproj|solutionrelative:oranges\\models\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B666E934-81E4-4265-BF5C-AD507B9A3DB8}|Oranges\\Oranges.csproj|c:\\users\\orange academy\\desktop\\oranges\\oranges\\oranges\\controllers\\votingsessioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B666E934-81E4-4265-BF5C-AD507B9A3DB8}|Oranges\\Oranges.csproj|solutionrelative:oranges\\controllers\\votingsessioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B666E934-81E4-4265-BF5C-AD507B9A3DB8}|Oranges\\Oranges.csproj|c:\\users\\orange academy\\desktop\\oranges\\oranges\\oranges\\controllers\\votecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B666E934-81E4-4265-BF5C-AD507B9A3DB8}|Oranges\\Oranges.csproj|solutionrelative:oranges\\controllers\\votecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B666E934-81E4-4265-BF5C-AD507B9A3DB8}|Oranges\\Oranges.csproj|c:\\users\\orange academy\\desktop\\oranges\\oranges\\oranges\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B666E934-81E4-4265-BF5C-AD507B9A3DB8}|Oranges\\Oranges.csproj|solutionrelative:oranges\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{B666E934-81E4-4265-BF5C-AD507B9A3DB8}|Oranges\\Oranges.csproj|c:\\users\\orange academy\\desktop\\oranges\\oranges\\oranges\\controllers\\restaurantscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B666E934-81E4-4265-BF5C-AD507B9A3DB8}|Oranges\\Oranges.csproj|solutionrelative:oranges\\controllers\\restaurantscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B666E934-81E4-4265-BF5C-AD507B9A3DB8}|Oranges\\Oranges.csproj|c:\\users\\orange academy\\desktop\\oranges\\oranges\\oranges\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B666E934-81E4-4265-BF5C-AD507B9A3DB8}|Oranges\\Oranges.csproj|solutionrelative:oranges\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B666E934-81E4-4265-BF5C-AD507B9A3DB8}|Oranges\\Oranges.csproj|c:\\users\\orange academy\\desktop\\oranges\\oranges\\oranges\\models\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B666E934-81E4-4265-BF5C-AD507B9A3DB8}|Oranges\\Oranges.csproj|solutionrelative:oranges\\models\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B666E934-81E4-4265-BF5C-AD507B9A3DB8}|Oranges\\Oranges.csproj|c:\\users\\orange academy\\desktop\\oranges\\oranges\\oranges\\migrations\\applicationdbcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B666E934-81E4-4265-BF5C-AD507B9A3DB8}|Oranges\\Oranges.csproj|solutionrelative:oranges\\migrations\\applicationdbcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B666E934-81E4-4265-BF5C-AD507B9A3DB8}|Oranges\\Oranges.csproj|c:\\users\\orange academy\\desktop\\oranges\\oranges\\oranges\\models\\tables.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B666E934-81E4-4265-BF5C-AD507B9A3DB8}|Oranges\\Oranges.csproj|solutionrelative:oranges\\models\\tables.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B666E934-81E4-4265-BF5C-AD507B9A3DB8}|Oranges\\Oranges.csproj|c:\\users\\orange academy\\desktop\\oranges\\oranges\\oranges\\migrations\\20240901155354_addvoting.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B666E934-81E4-4265-BF5C-AD507B9A3DB8}|Oranges\\Oranges.csproj|solutionrelative:oranges\\migrations\\20240901155354_addvoting.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B666E934-81E4-4265-BF5C-AD507B9A3DB8}|Oranges\\Oranges.csproj|c:\\users\\orange academy\\desktop\\oranges\\oranges\\oranges\\migrations\\20240901133112_initialcreate3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B666E934-81E4-4265-BF5C-AD507B9A3DB8}|Oranges\\Oranges.csproj|solutionrelative:oranges\\migrations\\20240901133112_initialcreate3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B666E934-81E4-4265-BF5C-AD507B9A3DB8}|Oranges\\Oranges.csproj|c:\\users\\orange academy\\desktop\\oranges\\oranges\\oranges\\controllers\\mealscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B666E934-81E4-4265-BF5C-AD507B9A3DB8}|Oranges\\Oranges.csproj|solutionrelative:oranges\\controllers\\mealscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B666E934-81E4-4265-BF5C-AD507B9A3DB8}|Oranges\\Oranges.csproj|c:\\users\\orange academy\\desktop\\oranges\\oranges\\oranges\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{B666E934-81E4-4265-BF5C-AD507B9A3DB8}|Oranges\\Oranges.csproj|solutionrelative:oranges\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B666E934-81E4-4265-BF5C-AD507B9A3DB8}|Oranges\\Oranges.csproj|c:\\users\\orange academy\\desktop\\oranges\\oranges\\oranges\\migrations\\20240901130820_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B666E934-81E4-4265-BF5C-AD507B9A3DB8}|Oranges\\Oranges.csproj|solutionrelative:oranges\\migrations\\20240901130820_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{B666E934-81E4-4265-BF5C-AD507B9A3DB8}|Oranges\\Oranges.csproj|c:\\users\\orange academy\\desktop\\oranges\\oranges\\oranges\\controllers\\maincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -55,19 +75,84 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "VotingResultController.cs",
+              "DocumentMoniker": "C:\\Users\\Orange Academy\\Desktop\\Oranges\\Oranges\\Oranges\\Controllers\\VotingResultController.cs",
+              "RelativeDocumentMoniker": "Oranges\\Controllers\\VotingResultController.cs",
+              "ToolTip": "C:\\Users\\Orange Academy\\Desktop\\Oranges\\Oranges\\Oranges\\Controllers\\VotingResultController.cs",
+              "RelativeToolTip": "Oranges\\Controllers\\VotingResultController.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAQwBAAAAA7AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-01T16:04:48.184Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "VoteController.cs",
+              "DocumentMoniker": "C:\\Users\\Orange Academy\\Desktop\\Oranges\\Oranges\\Oranges\\Controllers\\VoteController.cs",
+              "RelativeDocumentMoniker": "Oranges\\Controllers\\VoteController.cs",
+              "ToolTip": "C:\\Users\\Orange Academy\\Desktop\\Oranges\\Oranges\\Oranges\\Controllers\\VoteController.cs",
+              "RelativeToolTip": "Oranges\\Controllers\\VoteController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAADQAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-01T16:02:34.654Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "VotingSessionController.cs",
+              "DocumentMoniker": "C:\\Users\\Orange Academy\\Desktop\\Oranges\\Oranges\\Oranges\\Controllers\\VotingSessionController.cs",
+              "RelativeDocumentMoniker": "Oranges\\Controllers\\VotingSessionController.cs",
+              "ToolTip": "C:\\Users\\Orange Academy\\Desktop\\Oranges\\Oranges\\Oranges\\Controllers\\VotingSessionController.cs",
+              "RelativeToolTip": "Oranges\\Controllers\\VotingSessionController.cs",
+              "ViewState": "AQIAAAoAAAAAAAAAAAAqwBEAAABIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-01T15:55:47.996Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ApplicationDbContextModelSnapshot.cs",
+              "DocumentMoniker": "C:\\Users\\Orange Academy\\Desktop\\Oranges\\Oranges\\Oranges\\Migrations\\ApplicationDbContextModelSnapshot.cs",
+              "RelativeDocumentMoniker": "Oranges\\Migrations\\ApplicationDbContextModelSnapshot.cs",
+              "ToolTip": "C:\\Users\\Orange Academy\\Desktop\\Oranges\\Oranges\\Oranges\\Migrations\\ApplicationDbContextModelSnapshot.cs",
+              "RelativeToolTip": "Oranges\\Migrations\\ApplicationDbContextModelSnapshot.cs",
+              "ViewState": "AQIAAG0AAAAAAAAAAAAgwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-01T15:54:25.098Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "20240901155354_AddVoting.cs",
+              "DocumentMoniker": "C:\\Users\\Orange Academy\\Desktop\\Oranges\\Oranges\\Oranges\\Migrations\\20240901155354_AddVoting.cs",
+              "RelativeDocumentMoniker": "Oranges\\Migrations\\20240901155354_AddVoting.cs",
+              "ToolTip": "C:\\Users\\Orange Academy\\Desktop\\Oranges\\Oranges\\Oranges\\Migrations\\20240901155354_AddVoting.cs",
+              "RelativeToolTip": "Oranges\\Migrations\\20240901155354_AddVoting.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-01T15:53:54.822Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
               "Title": "tables.cs",
               "DocumentMoniker": "C:\\Users\\Orange Academy\\Desktop\\Oranges\\Oranges\\Oranges\\Models\\tables.cs",
               "RelativeDocumentMoniker": "Oranges\\Models\\tables.cs",
               "ToolTip": "C:\\Users\\Orange Academy\\Desktop\\Oranges\\Oranges\\Oranges\\Models\\tables.cs",
               "RelativeToolTip": "Oranges\\Models\\tables.cs",
-              "ViewState": "AQIAACMAAAAAAAAAAAAAwDAAAAAsAAAA",
+              "ViewState": "AQIAADwAAAAAAAAAAAAuwEIAAAAVAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-01T13:30:36.953Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 10,
               "Title": "20240901133112_InitialCreate3.cs",
               "DocumentMoniker": "C:\\Users\\Orange Academy\\Desktop\\Oranges\\Oranges\\Oranges\\Migrations\\20240901133112_InitialCreate3.cs",
               "RelativeDocumentMoniker": "Oranges\\Migrations\\20240901133112_InitialCreate3.cs",
@@ -80,20 +165,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 1,
               "Title": "DTO.cs",
               "DocumentMoniker": "C:\\Users\\Orange Academy\\Desktop\\Oranges\\Oranges\\Oranges\\Models\\DTO.cs",
               "RelativeDocumentMoniker": "Oranges\\Models\\DTO.cs",
               "ToolTip": "C:\\Users\\Orange Academy\\Desktop\\Oranges\\Oranges\\Oranges\\Models\\DTO.cs",
               "RelativeToolTip": "Oranges\\Models\\DTO.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAAAAAA",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAwBAAAAARAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-01T13:18:25.039Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 13,
               "Title": "20240901130820_InitialCreate.cs",
               "DocumentMoniker": "C:\\Users\\Orange Academy\\Desktop\\Oranges\\Oranges\\Oranges\\Migrations\\20240901130820_InitialCreate.cs",
               "RelativeDocumentMoniker": "Oranges\\Migrations\\20240901130820_InitialCreate.cs",
@@ -101,45 +186,46 @@
               "RelativeToolTip": "Oranges\\Migrations\\20240901130820_InitialCreate.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-01T13:08:20.696Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-01T13:08:20.696Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 5,
               "Title": "RestaurantsController.cs",
               "DocumentMoniker": "C:\\Users\\Orange Academy\\Desktop\\Oranges\\Oranges\\Oranges\\Controllers\\RestaurantsController.cs",
               "RelativeDocumentMoniker": "Oranges\\Controllers\\RestaurantsController.cs",
               "ToolTip": "C:\\Users\\Orange Academy\\Desktop\\Oranges\\Oranges\\Oranges\\Controllers\\RestaurantsController.cs",
               "RelativeToolTip": "Oranges\\Controllers\\RestaurantsController.cs",
-              "ViewState": "AQIAAAEAAAAAAAAAAAApwAoAAAAvAAAA",
+              "ViewState": "AQIAAFQAAAAAAAAAAAAmwBcAAAAFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-01T12:48:05.725Z"
+              "WhenOpened": "2024-09-01T12:48:05.725Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 11,
               "Title": "MealsController.cs",
               "DocumentMoniker": "C:\\Users\\Orange Academy\\Desktop\\Oranges\\Oranges\\Oranges\\Controllers\\MealsController.cs",
               "RelativeDocumentMoniker": "Oranges\\Controllers\\MealsController.cs",
               "ToolTip": "C:\\Users\\Orange Academy\\Desktop\\Oranges\\Oranges\\Oranges\\Controllers\\MealsController.cs",
               "RelativeToolTip": "Oranges\\Controllers\\MealsController.cs",
-              "ViewState": "AQIAABEAAAAAAAAAAAAQwA8AAAAFAAAA",
+              "ViewState": "AQIAAGMAAAAAAAAAAAAmwA8AAAAFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-01T12:44:15.331Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 4,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\Orange Academy\\Desktop\\Oranges\\Oranges\\Oranges\\Program.cs",
               "RelativeDocumentMoniker": "Oranges\\Program.cs",
               "ToolTip": "C:\\Users\\Orange Academy\\Desktop\\Oranges\\Oranges\\Oranges\\Program.cs",
               "RelativeToolTip": "Oranges\\Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAowAsAAAAAAAAA",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAUwBoAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-01T12:41:55.378Z"
+              "WhenOpened": "2024-09-01T12:41:55.378Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -149,14 +235,14 @@
               "RelativeDocumentMoniker": "Oranges\\Models\\ApplicationDbContext.cs",
               "ToolTip": "C:\\Users\\Orange Academy\\Desktop\\Oranges\\Oranges\\Oranges\\Models\\ApplicationDbContext.cs",
               "RelativeToolTip": "Oranges\\Models\\ApplicationDbContext.cs",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAqwAIAAAAAAAAA",
+              "ViewState": "AQIAAAMAAAAAAAAAAAA6wBAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-01T12:39:59.579Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 12,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\Orange Academy\\Desktop\\Oranges\\Oranges\\Oranges\\appsettings.json",
               "RelativeDocumentMoniker": "Oranges\\appsettings.json",
@@ -164,12 +250,11 @@
               "RelativeToolTip": "Oranges\\appsettings.json",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-09-01T12:16:22.375Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-01T12:16:22.375Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 14,
               "Title": "mainController.cs",
               "DocumentMoniker": "C:\\Users\\Orange Academy\\Desktop\\Oranges\\Oranges\\Oranges\\Controllers\\mainController.cs",
               "RelativeDocumentMoniker": "Oranges\\Controllers\\mainController.cs",

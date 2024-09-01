@@ -11,4 +11,6 @@ public class ApplicationDbContext : DbContext
     public DbSet<Restaurant> Restaurants { get; set; }
     public DbSet<Meals> Meals { get; set; }
     public DbSet<Orders> TodayOrders { get; set; }
+    public DbSet<VotingSession> VotingSessions { get; set; }
+    public DbSet<Vote> Votes { get; set; }
 }

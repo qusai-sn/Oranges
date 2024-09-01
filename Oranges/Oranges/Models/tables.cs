@@ -49,5 +49,45 @@ namespace Oranges.Models
         public string Comments { get; set; }
         public string Status { get; set; }
     }
-   
+
+    public class VotingSession
+    {
+        [Key]
+        public int Id { get; set; }
+
+        [Required]
+        public DateTime StartTime { get; set; }
+
+        [Required]
+        public DateTime EndTime { get; set; }
+
+        public ICollection<Vote> Votes { get; set; } // Relationship with votes
+    }
+
+    public class Vote
+    {
+        [Key]
+        public int Id { get; set; }
+
+        [Required]
+        public int UserId { get; set; }
+
+        [ForeignKey("UserId")]
+        public Users User { get; set; }
+
+        [Required]
+        public int RestaurantId { get; set; }
+
+        [ForeignKey("RestaurantId")]
+        public Restaurant Restaurant { get; set; }
+
+        [Required]
+        public int VotingSessionId { get; set; }
+
+        [ForeignKey("VotingSessionId")]
+        public VotingSession VotingSession { get; set; }
+    }
+
+
+
 }

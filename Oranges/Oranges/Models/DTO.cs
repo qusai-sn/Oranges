@@ -14,4 +14,10 @@
         public IFormFile? Image { get; set; }
 
     }
+    public class VotingSessionDto
+    {
+        public VotingSession VotingSession { get; set; }
+        public List<int> RestaurantIds { get; set; }
+    }
+
 }
