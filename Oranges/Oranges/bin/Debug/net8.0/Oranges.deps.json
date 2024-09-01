@@ -14,6 +14,7 @@
           "Microsoft.EntityFrameworkCore.Sqlite": "8.0.8",
           "Microsoft.EntityFrameworkCore.Tools": "8.0.8",
           "Microsoft.VisualStudio.Web.CodeGeneration.Design": "8.0.4",
+          "NDbUnit.SqlLite": "1.6.8",
           "Swashbuckle.AspNetCore": "6.4.0"
         },
         "runtime": {
@@ -1595,6 +1596,25 @@
           }
         }
       },
+      "NDbUnit.Core/1.6.8": {
+        "runtime": {
+          "lib/Net35/NDbUnit.Core.dll": {
+            "assemblyVersion": "1.6.8.36615",
+            "fileVersion": "1.6.8.0"
+          }
+        }
+      },
+      "NDbUnit.SqlLite/1.6.8": {
+        "dependencies": {
+          "NDbUnit.Core": "1.6.8"
+        },
+        "runtime": {
+          "lib/Net35/NDbUnit.SqlLite.dll": {
+            "assemblyVersion": "1.6.8.36615",
+            "fileVersion": "1.6.8.0"
+          }
+        }
+      },
       "Newtonsoft.Json/13.0.3": {
         "runtime": {
           "lib/net6.0/Newtonsoft.Json.dll": {
@@ -2124,6 +2144,12 @@
       "System.Text.Json/8.0.4": {
         "dependencies": {
           "System.Text.Encodings.Web": "8.0.0"
+        },
+        "runtime": {
+          "lib/net8.0/System.Text.Json.dll": {
+            "assemblyVersion": "8.0.0.0",
+            "fileVersion": "8.0.724.31311"
+          }
         }
       },
       "System.Threading.Channels/7.0.0": {},
@@ -2995,6 +3021,20 @@
       "sha512": "sha512-pqYwzNqDL0QK1JFpAjpI/NPqyqLGpHLvVmA5Ec0LaSnbIDtEXxu0td16uunegb7c8xAnlcm4qkbIYUP5FfrFpA==",
       "path": "mono.texttemplating/2.3.1",
       "hashPath": "mono.texttemplating.2.3.1.nupkg.sha512"
+    },
+    "NDbUnit.Core/1.6.8": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-uMlzDWV1S4duukcops4ehpv4V/gdK4jV4DCYzdUjMyZVt+3tLf48Vvmutsan6tEhXaZlf5zkXuCP+Fmvad2YMA==",
+      "path": "ndbunit.core/1.6.8",
+      "hashPath": "ndbunit.core.1.6.8.nupkg.sha512"
+    },
+    "NDbUnit.SqlLite/1.6.8": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-/Grfv8skO/0j7fdxtgzwkDZBncZfmjeAWBJHLiZeDJnryoiX68d4T8UAX2XQYkhfXT/lJUuu1G9qyhW+4q7dgw==",
+      "path": "ndbunit.sqllite/1.6.8",
+      "hashPath": "ndbunit.sqllite.1.6.8.nupkg.sha512"
     },
     "Newtonsoft.Json/13.0.3": {
       "type": "package",

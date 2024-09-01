@@ -825,3 +825,5 @@ C:\Users\Orange Academy\Desktop\Oranges\Oranges\Oranges\bin\Debug\net8.0\runtime
 C:\Users\Orange Academy\Desktop\Oranges\Oranges\Oranges\bin\Debug\net8.0\runtimes\win-arm64\native\e_sqlite3.dll
 C:\Users\Orange Academy\Desktop\Oranges\Oranges\Oranges\bin\Debug\net8.0\runtimes\win-x64\native\e_sqlite3.dll
 C:\Users\Orange Academy\Desktop\Oranges\Oranges\Oranges\bin\Debug\net8.0\runtimes\win-x86\native\e_sqlite3.dll
+C:\Users\Orange Academy\Desktop\Oranges\Oranges\Oranges\bin\Debug\net8.0\NDbUnit.Core.dll
+C:\Users\Orange Academy\Desktop\Oranges\Oranges\Oranges\bin\Debug\net8.0\NDbUnit.SqlLite.dll

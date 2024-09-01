@@ -78,6 +78,10 @@
               "target": "Package",
               "version": "[8.0.4, )"
             },
+            "NDbUnit.SqlLite": {
+              "target": "Package",
+              "version": "[1.6.8, )"
+            },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
               "version": "[6.4.0, )"

@@ -2062,6 +2062,31 @@
           "lib/netcoreapp3.1/Mono.TextTemplating.dll": {}
         }
       },
+      "NDbUnit.Core/1.6.8": {
+        "type": "package",
+        "compile": {
+          "lib/Net35/NDbUnit.Core.dll": {}
+        },
+        "runtime": {
+          "lib/Net35/NDbUnit.Core.dll": {}
+        }
+      },
+      "NDbUnit.SqlLite/1.6.8": {
+        "type": "package",
+        "dependencies": {
+          "NDbUnit.Core": "1.6.8"
+        },
+        "compile": {
+          "lib/Net35/NDbUnit.SqlLite.dll": {
+            "related": ".pdb"
+          }
+        },
+        "runtime": {
+          "lib/Net35/NDbUnit.SqlLite.dll": {
+            "related": ".pdb"
+          }
+        }
+      },
       "Newtonsoft.Json/13.0.3": {
         "type": "package",
         "compile": {
@@ -7026,6 +7051,31 @@
         "readme.md"
       ]
     },
+    "NDbUnit.Core/1.6.8": {
+      "sha512": "uMlzDWV1S4duukcops4ehpv4V/gdK4jV4DCYzdUjMyZVt+3tLf48Vvmutsan6tEhXaZlf5zkXuCP+Fmvad2YMA==",
+      "type": "package",
+      "path": "ndbunit.core/1.6.8",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/Net35/NDbUnit.Core.dll",
+        "ndbunit.core.1.6.8.nupkg.sha512",
+        "ndbunit.core.nuspec"
+      ]
+    },
+    "NDbUnit.SqlLite/1.6.8": {
+      "sha512": "/Grfv8skO/0j7fdxtgzwkDZBncZfmjeAWBJHLiZeDJnryoiX68d4T8UAX2XQYkhfXT/lJUuu1G9qyhW+4q7dgw==",
+      "type": "package",
+      "path": "ndbunit.sqllite/1.6.8",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/Net35/NDbUnit.SqlLite.dll",
+        "lib/Net35/NDbUnit.SqlLite.pdb",
+        "ndbunit.sqllite.1.6.8.nupkg.sha512",
+        "ndbunit.sqllite.nuspec"
+      ]
+    },
     "Newtonsoft.Json/13.0.3": {
       "sha512": "HrC5BXdl00IP9zeV+0Z848QWPAoCr9P3bDEZguI+gkLcBKAOxix/tLEAAHC+UvDNPv4a2d18lOReHMOagPa+zQ==",
       "type": "package",
@@ -8756,6 +8806,7 @@
       "Microsoft.EntityFrameworkCore.Sqlite >= 8.0.8",
       "Microsoft.EntityFrameworkCore.Tools >= 8.0.8",
       "Microsoft.VisualStudio.Web.CodeGeneration.Design >= 8.0.4",
+      "NDbUnit.SqlLite >= 1.6.8",
       "Swashbuckle.AspNetCore >= 6.4.0"
     ]
   },
@@ -8837,6 +8888,10 @@
             "target": "Package",
             "version": "[8.0.4, )"
           },
+          "NDbUnit.SqlLite": {
+            "target": "Package",
+            "version": "[1.6.8, )"
+          },
           "Swashbuckle.AspNetCore": {
             "target": "Package",
             "version": "[6.4.0, )"
@@ -8864,5 +8919,27 @@
         "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.302/PortableRuntimeIdentifierGraph.json"
       }
     }
-  }
+  },
+  "logs": [
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'NDbUnit.Core 1.6.8' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net8.0'. This package may not be fully compatible with your project.",
+      "libraryId": "NDbUnit.Core",
+      "targetGraphs": [
+        "net8.0"
+      ]
+    },
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'NDbUnit.SqlLite 1.6.8' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net8.0'. This package may not be fully compatible with your project.",
+      "libraryId": "NDbUnit.SqlLite",
+      "targetGraphs": [
+        "net8.0"
+      ]
+    }
+  ]
 }

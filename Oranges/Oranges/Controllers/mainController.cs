@@ -5,8 +5,8 @@ namespace Oranges.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
-    public class mainController : ControllerBase
+    public class MainController : ControllerBase
     {
-
+        
     }
 }
