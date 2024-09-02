@@ -10,7 +10,25 @@ builder.Services.AddSwaggerGen();
 builder.Services.AddDbContext<ApplicationDbContext>(options =>
     options.UseSqlite(builder.Configuration.GetConnectionString("YourConnectionString")));
 
+ builder.Services.AddCors(options =>
+{
+    options.AddPolicy("AllowLocalhost5500",
+        builder =>
+        {
+            builder.WithOrigins("http://127.0.0.1:5500")
+                   .AllowAnyHeader()
+                   .AllowAnyMethod();
+        });
+});
+
+
+
 var app = builder.Build();
+
+
+app.UseCors("AllowLocalhost5500");
+
+
 
 // Configure the HTTP request pipeline.
 if (app.Environment.IsDevelopment())

@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Restaurant</title>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <style>
+      .card-custom {
+        transition: transform 0.3s ease, box-shadow 0.3s ease;
+        border: 1px solid #e0e0e0;
+        border-radius: 8px;
+        overflow: hidden;
+      }
+      .card-custom img {
+        transition: transform 0.3s ease;
+      }
+      .card-custom:hover {
+        transform: scale(1.03);
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+      }
+      .card-custom:hover img {
+        transform: scale(1.1);
+      }
+      .card-custom .card-body {
+        background-color: #fffaf1; /* Light orange background /
+        color: #333; / Dark text for contrast /
+      }
+      .card-custom .btn-primary {
+        background-color: #f0a500; / Light orange button /
+        border-color: #f0a500;
+      }
+      .card-custom .btn-primary:hover {
+        background-color: #e07b39; / Slightly darker orange on hover */
+        border-color: #e07b39;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container mt-4">
+      <div class="row" id="Resturant"></div>
+    </div>
+
+    <script src="ShowResturant.js"></script>
+  </body>
+</html>
+
