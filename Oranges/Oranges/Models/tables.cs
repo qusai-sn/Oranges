@@ -62,6 +62,8 @@ namespace Oranges.Models
         public DateTime EndTime { get; set; }
 
         public ICollection<Vote> Votes { get; set; } // Relationship with votes
+        public ICollection<int> RestaurantIds { get; set; } // Or you can use a separate table for many-to-many relationships
+
     }
 
     public class Vote

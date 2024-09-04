@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Voting Sessions</title>
+    <link rel="stylesheet" href="styles.css" />
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        background-color: #f4f4f4;
+        margin: 0;
+        padding: 0;
+      }
+
+      .container {
+        max-width: 800px;
+        margin: 50px auto;
+        padding: 20px;
+        background-color: #fff;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      }
+
+      h1 {
+        text-align: center;
+        color: #333;
+      }
+
+      .voting-session {
+        margin-bottom: 20px;
+        padding: 15px;
+        border: 1px solid #ddd;
+        border-radius: 5px;
+      }
+
+      .voting-session h2 {
+        margin-top: 0;
+        color: #007bff;
+      }
+
+      .restaurant-list {
+        margin-top: 10px;
+      }
+
+      .restaurant {
+        padding: 5px;
+        border-bottom: 1px solid #eee;
+      }
+
+      .restaurant:last-child {
+        border-bottom: none;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Voting Sessions</h1>
+      <div id="votingSessionsContainer">
+        <!-- Voting sessions will be dynamically populated here -->
+      </div>
+      <div id="errorMessage" class="error-message"></div>
+    </div>
+
+    <script>
+      document.addEventListener("DOMContentLoaded", async function () {
+        const votingSessionsContainer = document.getElementById(
+          "votingSessionsContainer"
+        );
+        const errorMessage = document.getElementById("errorMessage");
+
+        try {
+          // Fetch the list of voting sessions from the backend
+          const response = await fetch(
+            "https://localhost:7147/api/VotingSession"
+          );
+
+          if (!response.ok) {
+            throw new Error(
+              `Error fetching voting sessions: ${response.statusText}`
+            );
+          }
+
+          const data = await response.json();
+
+          // Check if any voting sessions exist
+          if (data.length === 0) {
+            votingSessionsContainer.innerHTML =
+              "<p>No voting sessions available.</p>";
+            return;
+          }
+
+          // Populate voting sessions
+          data.forEach((session) => {
+            const sessionDiv = document.createElement("div");
+            sessionDiv.className = "voting-session";
+
+            const sessionTitle = document.createElement("h2");
+            sessionTitle.textContent = `Session ID: ${session.id}`;
+            sessionDiv.appendChild(sessionTitle);
+
+            const sessionDetails = document.createElement("p");
+            sessionDetails.textContent = `Start Time: ${new Date(
+              session.startTime
+            ).toLocaleString()} | End Time: ${new Date(
+              session.endTime
+            ).toLocaleString()}`;
+            sessionDiv.appendChild(sessionDetails);
+
+            const restaurantList = document.createElement("div");
+            restaurantList.className = "restaurant-list";
+
+            // Add restaurants to the list
+            session.restaurantIds.forEach((restaurantId) => {
+              const restaurantDiv = document.createElement("div");
+              restaurantDiv.className = "restaurant";
+              restaurantDiv.textContent = `Restaurant ID: ${restaurantId}`; // Ideally, you would fetch restaurant names here
+              restaurantList.appendChild(restaurantDiv);
+            });
+
+            sessionDiv.appendChild(restaurantList);
+            votingSessionsContainer.appendChild(sessionDiv);
+          });
+        } catch (error) {
+          console.error("Error fetching voting sessions:", error);
+          errorMessage.textContent =
+            "Failed to load voting sessions. Please try again later.";
+        }
+      });
+    </script>
+  </body>
+</html>

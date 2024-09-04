@@ -1,4 +1,6 @@
-﻿namespace Oranges.Models
+﻿using System.ComponentModel.DataAnnotations;
+
+namespace Oranges.Models
 {
     public class mealRequestDTO
     {
@@ -16,7 +18,14 @@
     }
     public class VotingSessionDto
     {
-        public VotingSession VotingSession { get; set; }
+        [Required]
+        public DateTime StartTime { get; set; }
+
+        [Required]
+        public DateTime EndTime { get; set; }
+
+        [Required]
+        [MinLength(1, ErrorMessage = "At least one restaurant must be selected for the voting session.")]
         public List<int> RestaurantIds { get; set; }
     }
 

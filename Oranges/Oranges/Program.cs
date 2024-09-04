@@ -15,7 +15,7 @@ builder.Services.AddDbContext<ApplicationDbContext>(options =>
     options.AddPolicy("AllowLocalhost5500",
         builder =>
         {
-            builder.WithOrigins("http://127.0.0.1:5500")
+            builder.AllowAnyOrigin()
                    .AllowAnyHeader()
                    .AllowAnyMethod();
         });
